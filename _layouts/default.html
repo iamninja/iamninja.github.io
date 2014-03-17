@@ -1,47 +1,37 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{site.baseurl}}css/screen.css" />
+    <script src="{{site.baseurl}}js/modernizr/modernizr.js"></script>
+  </head>
+  <body>
+    <div class="fixed contain-to-grid">
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="#" title="Vagios Vlachos">Vagios Vlachos</a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"></a></li>
+        </ul>
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+        <section class="top-bar-section">
+          <ul class="right">
+            <li class=""><a href="/" title="Home">Home</a></li>
+            <li class=""><a href="/vitae" title="Vit&aelig;">Vit&aelig;</a></li>
+            <li class=""><a href="/blog" title="Blog">Blog</a></li>
+            <!-- <li></li> -->
+          </ul>
+        </section>
+      </nav>
+    </div><!-- navbar -->
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+    {{ content }}
 
-        <!-- SCSS -->
-        <link rel="stylesheet" href="/css/screen.css">
+    {% include footer.html %}
+    {{page.relative_path_to_root}}
 
-    </head>
-    <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
-
-    </body>
+  </body>
 </html>

@@ -1,89 +1,60 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vagios Vlachos</title>
-    <link rel="stylesheet" href="css/screen.css" />
-    <script src="js/modernizr/modernizr.js"></script>
-  </head>
-  <body>
-    <div class="fixed contain-to-grid">
-      <nav class="top-bar" data-topbar>
-        <ul class="title-area">
-          <li class="name">
-            <h1><a href="#" title="Vagios Vlachos">Vagios Vlachos</a></h1>
-          </li>
-          <li class="toggle-topbar menu-icon"><a href="#"></a></li>
-        </ul>
+---
+layout: default
+title: Vagios Vlachos
+---
 
-        <section class="top-bar-section">
-          <ul class="right">
-            <li class="active"><a href="#" title="Home">Home</a></li>
-            <li class=""><a href="vitae.html" title="Vit&aelig;">Vit&aelig;</a></li>
-            <li class=""><a href="/blog" title="Blog">Blog</a></li>
-            <!-- <li></li> -->
-          </ul>
-        </section>
-      </nav>
-    </div><!-- navbar -->
-
-    <div class="row">
-      <div class="medium-12 columns">
-        <div class="header-panel">
-          <h2 class="show-for-medium-up">Vagios Vlachos</h2>
-          <p class="show-for-medium-up">I am a graduate stydent at MPLA.</p>
-          <p class="show-for-medium-up">I studied mathematics at University of Athens.</p>
-        </div>
-      </div>
+<div class="row">
+  <div class="medium-12 columns">
+    <div class="header-panel">
+      <h2 class="show-for-medium-up">Vagios Vlachos</h2>
+      <p class="show-for-medium-up">I am a graduate stydent at MPLA.</p>
+      <p class="show-for-medium-up">I studied mathematics at University of Athens.</p>
     </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="medium-12 columns">
+    <h3>Contact</h3>
 
     <div class="row">
       <div class="medium-12 columns">
-        <h3>Contact</h3>
-
-        <div class="row">
-          <div class="medium-12 columns">
-            <div class="contact-panel callout">
-              <div class="medium-6 columns">
-                <h4>Vagios Vlachos</h4>
-                <p><span class="icon-mail2"></span> v.vlachos@math.uoa.gr</p>
-                <p><span class="icon-skype"></span> zangetsu234</p>
+        <div class="contact-panel callout">
+          <div class="medium-6 columns">
+            <h4>Vagios Vlachos</h4>
+            <p><span class="icon-mail2"></span> v.vlachos@math.uoa.gr</p>
+            <p><span class="icon-skype"></span> zangetsu234</p>
+          </div>
+          <div class="medium-6 columns">
+            <h4>Find me</h4>
+            <p>
+              <div class="medium-6 glyph">
+                <a href="https://twitter.com/iamninja__" title="Twitter" target="_blank"><span class="icon-twitter3"></span></a>
+                <a href="https://plus.google.com/103055252787325506050" title="Google+"><span class="icon-googleplus3"></span></a>
+                <a href="http://gr.linkedin.com/in/vagios" title="LinkedIn"><span class="icon-linkedin"></span></a>
+                <a href="https://github.com/iamninja" title="Github" target="_blank"><span class="icon-github4"></span></a>
               </div>
-              <div class="medium-6 columns">
-                <h4>Find me</h4>
-                <p>
-                  <div class="medium-6 glyph">
-                    <a href="https://twitter.com/iamninja__" title="Twitter" target="_blank"><span class="icon-twitter3"></span></a>
-                    <a href="https://plus.google.com/103055252787325506050" title="Google+"><span class="icon-googleplus3"></span></a>
-                    <a href="http://gr.linkedin.com/in/vagios" title="LinkedIn"><span class="icon-linkedin"></span></a>
-                    <a href="https://github.com/iamninja" title="Github" target="_blank"><span class="icon-github4"></span></a>
-                  </div>
-                </p>
-              </div>
-            </div>
+            </p>
           </div>
         </div>
       </div>
     </div>
+  </div>
+</div>
+<div class="row">
+  <div class="large-12 columns">
+    <h5>Famous Quote</h5>
     <div class="row">
-      <div class="large-12 columns">
-        <h5>Famous Quote</h5>
-        <div class="row">
-          <div class="large-12 medium-12 columns">
-            <blockquote>
-              <cite></cite>
-            </blockquote>
-          </div>
-        </div>
+      <div class="large-12 medium-12 columns">
+        <blockquote>
+          <cite></cite>
+        </blockquote>
       </div>
     </div>
+  </div>
+</div>
 
-    <script src="js/jquery/dist/jquery.min.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-    <script type="text/javascript">
-      $(document).foundation(random_quote());
-    </script>
-  </body>
-</html>
+{% include loadjs.html %}
+<script type="text/javascript">
+  $(document).foundation(random_quote());
+</script>
