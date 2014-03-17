@@ -1,0 +1,102 @@
+@font-face {
+	font-family: 'icomoon-1';
+	src:url('../images/icomoon-1.eot?4dhvea');
+	src:url('../images/icomoon-1.eot?#iefix4dhvea') format('embedded-opentype'),
+		url('../images/icomoon-1.woff?4dhvea') format('woff'),
+		url('../images/icomoon-1.ttf?4dhvea') format('truetype'),
+		url('../images/icomoon-1.svg?4dhvea#icomoon-1') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon-1';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+	content: "\e600";
+}
+.icon-skype:before {
+	content: "\e601";
+}
+.icon-twitter:before {
+	content: "\e602";
+}
+.icon-googleplus:before {
+	content: "\e603";
+}
+.icon-googleplus2:before {
+	content: "\e604";
+}
+.icon-googleplus3:before {
+	content: "\e605";
+}
+.icon-mail:before {
+	content: "\e606";
+}
+.icon-mail2:before {
+	content: "\e607";
+}
+.icon-mail3:before {
+	content: "\e608";
+}
+.icon-twitter2:before {
+	content: "\e609";
+}
+.icon-twitter3:before {
+	content: "\e60a";
+}
+.icon-github2:before {
+	content: "\e60b";
+}
+.icon-github3:before {
+	content: "\e60c";
+}
+.icon-github4:before {
+	content: "\e60d";
+}
+.icon-linkedin:before {
+	content: "\e60e";
+}
+.icon-tumblr:before {
+	content: "\e60f";
+}
+.icon-tumblr2:before {
+	content: "\e610";
+}
+.icon-steam:before {
+	content: "\e611";
+}
+.icon-steam2:before {
+	content: "\e612";
+}
+.icon-envelope:before {
+	content: "\e613";
+}
+.icon-home:before {
+	content: "\e614";
+}
+.icon-mug:before {
+	content: "\e615";
+}
+
+.glyph {
+	font-size: 16px;
+	// width: 15em;
+	padding-bottom: 1em;
+	margin-right: 4em;
+	margin-bottom: 1em;
+	float: left;
+	overflow: hidden;
+	font-size: 32px;
+}
