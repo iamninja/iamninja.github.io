@@ -9594,16 +9594,16 @@ th.hide-for-touch {
 }
 
 @font-face {
-  font-family: 'icomoon-1';
-  src: url("../images/icomoon-1.eot?4dhvea");
-  src: url("../images/icomoon-1.eot?#iefix4dhvea") format("embedded-opentype"), url("../images/icomoon-1.woff?4dhvea") format("woff"), url("../images/icomoon-1.ttf?4dhvea") format("truetype"), url("../images/icomoon-1.svg?4dhvea#icomoon-1") format("svg");
+  font-family: 'icomoon-new';
+  src: url("/images/icomoon-new.eot?-gux5jr");
+  src: url("/images/icomoon-new.eot?#iefix-gux5jr") format("embedded-opentype"), url("/images/icomoon-new.woff?-gux5jr") format("woff"), url("/images/icomoon-new.ttf?-gux5jr") format("truetype"), url("/images/icomoon-new.svg?-gux5jr#icomoon-new") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 /* line 12, ../_sass/_iconmoon.scss */
 [class^="icon-"], [class*=" icon-"] {
-  font-family: 'icomoon-1';
+  font-family: 'icomoon-new';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -9725,7 +9725,67 @@ th.hide-for-touch {
   content: "\e615";
 }
 
-/* line 93, ../_sass/_iconmoon.scss */
+/* line 92, ../_sass/_iconmoon.scss */
+.icon-bullhorn:before {
+  content: "\e616";
+}
+
+/* line 95, ../_sass/_iconmoon.scss */
+.icon-heart:before {
+  content: "\e617";
+}
+
+/* line 98, ../_sass/_iconmoon.scss */
+.icon-heart2:before {
+  content: "\e618";
+}
+
+/* line 101, ../_sass/_iconmoon.scss */
+.icon-home2:before {
+  content: "\e619";
+}
+
+/* line 104, ../_sass/_iconmoon.scss */
+.icon-apple:before {
+  content: "\e61a";
+}
+
+/* line 107, ../_sass/_iconmoon.scss */
+.icon-google-drive:before {
+  content: "\e61b";
+}
+
+/* line 110, ../_sass/_iconmoon.scss */
+.icon-arrow-right:before {
+  content: "\e61e";
+}
+
+/* line 113, ../_sass/_iconmoon.scss */
+.icon-embed:before {
+  content: "\e61f";
+}
+
+/* line 116, ../_sass/_iconmoon.scss */
+.icon-code:before {
+  content: "\e620";
+}
+
+/* line 119, ../_sass/_iconmoon.scss */
+.icon-arrow-right2:before {
+  content: "\e621";
+}
+
+/* line 122, ../_sass/_iconmoon.scss */
+.icon-jekyll-glyph-01:before {
+  content: "\e61c";
+}
+
+/* line 125, ../_sass/_iconmoon.scss */
+.icon-jekyll-glyph2-01:before {
+  content: "\e61d";
+}
+
+/* line 130, ../_sass/_iconmoon.scss */
 .glyph {
   font-size: 16px;
   padding-bottom: 1em;
@@ -9808,23 +9868,37 @@ th.hide-for-touch {
   line-height: 1.4;
 }
 
+/* line 69, ../_sass/screen.scss */
+.date {
+  color: #aaa;
+}
+
+/* line 73, ../_sass/screen.scss */
+#footer {
+  margin-bottom: 10px;
+}
+/* line 75, ../_sass/screen.scss */
+#footer span {
+  margin-left: 3px;
+}
+
 /*****************************************************************************/
 /*
 /* Home
 /*
 /*****************************************************************************/
-/* line 74, ../_sass/screen.scss */
+/* line 85, ../_sass/screen.scss */
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
 
-/* line 79, ../_sass/screen.scss */
+/* line 90, ../_sass/screen.scss */
 .posts li {
   line-height: 1.75em;
 }
 
-/* line 83, ../_sass/screen.scss */
+/* line 94, ../_sass/screen.scss */
 .posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
@@ -9836,7 +9910,7 @@ th.hide-for-touch {
 /* Site
 /*
 /*****************************************************************************/
-/* line 95, ../_sass/screen.scss */
+/* line 106, ../_sass/screen.scss */
 .site {
   font-size: 115%;
   text-align: justify;
@@ -9845,45 +9919,45 @@ th.hide-for-touch {
   line-height: 1.5em;
 }
 
-/* line 103, ../_sass/screen.scss */
+/* line 114, ../_sass/screen.scss */
 .header a {
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 108, ../_sass/screen.scss */
+/* line 119, ../_sass/screen.scss */
 .title {
   display: inline-block;
   margin-bottom: 2em;
 }
 
-/* line 113, ../_sass/screen.scss */
+/* line 124, ../_sass/screen.scss */
 .title a {
   color: #a00;
 }
 
-/* line 117, ../_sass/screen.scss */
+/* line 128, ../_sass/screen.scss */
 .title a:hover {
   color: #000;
 }
 
-/* line 121, ../_sass/screen.scss */
+/* line 132, ../_sass/screen.scss */
 .header a.extra {
   color: #aaa;
   margin-left: 1em;
 }
 
-/* line 126, ../_sass/screen.scss */
+/* line 137, ../_sass/screen.scss */
 .header a.extra:hover {
   color: #000;
 }
 
-/* line 130, ../_sass/screen.scss */
+/* line 141, ../_sass/screen.scss */
 .meta {
   color: #aaa;
 }
 
-/* line 134, ../_sass/screen.scss */
+/* line 145, ../_sass/screen.scss */
 .footer {
   font-size: 80%;
   color: #666;
@@ -9892,25 +9966,25 @@ th.hide-for-touch {
   overflow: hidden;
 }
 
-/* line 142, ../_sass/screen.scss */
+/* line 153, ../_sass/screen.scss */
 .footer .contact {
   float: left;
   margin-right: 3em;
 }
 
-/* line 147, ../_sass/screen.scss */
+/* line 158, ../_sass/screen.scss */
 .footer .contact a {
   color: #8085C1;
 }
 
-/* line 151, ../_sass/screen.scss */
+/* line 162, ../_sass/screen.scss */
 .footer .rss {
   margin-top: 1.1em;
   margin-right: -.2em;
   float: right;
 }
 
-/* line 157, ../_sass/screen.scss */
+/* line 168, ../_sass/screen.scss */
 .footer .rss img {
   border: 0;
 }
@@ -9921,39 +9995,39 @@ th.hide-for-touch {
 /*
 /*****************************************************************************/
 /* standard */
-/* line 168, ../_sass/screen.scss */
+/* line 179, ../_sass/screen.scss */
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
 
-/* line 174, ../_sass/screen.scss */
+/* line 185, ../_sass/screen.scss */
 .post ul, .post ol {
   margin-left: 1.35em;
 }
 
-/* line 178, ../_sass/screen.scss */
+/* line 189, ../_sass/screen.scss */
 .post code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
 }
 
-/* line 184, ../_sass/screen.scss */
+/* line 195, ../_sass/screen.scss */
 .post pre code {
   border: none;
 }
 
 /* terminal */
-/* line 189, ../_sass/screen.scss */
+/* line 200, ../_sass/screen.scss */
 .post pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
 }
 
-/* line 195, ../_sass/screen.scss */
+/* line 206, ../_sass/screen.scss */
 .post pre.terminal code {
   background-color: #333;
 }
