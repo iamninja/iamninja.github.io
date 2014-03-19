@@ -19,9 +19,11 @@
 
         <section class="top-bar-section">
           <ul class="right">
-            <li class=""><a href="/" title="Home">Home</a></li>
-            <li class=""><a href="/vitae" title="Vit&aelig;">Vit&aelig;</a></li>
-            <li class=""><a href="/blog" title="Blog">Blog</a></li>
+            <li class={% if page.title == 'Vagios Vlachos' %}"active"{% endif %}><a href="/" title="Home">Home</a></li>
+            <li class={% if page.title == 'Vagios Vlachos - Vitae' %}"active"{% endif %}><a href="/vitae" title="Vit&aelig;">Vit&aelig;</a></li>
+            <li class={% if page.title != 'Vagios Vlachos' and page.title != 'Vagios Vlachos - Vitae' %}"active"{% endif %}>
+              <a href="/blog" title="Blog">Blog</a>
+            </li>
             <!-- <li></li> -->
           </ul>
         </section>

@@ -1,10 +1,5 @@
 <quotes>
-	<quote>
-	    <text>hjkhlkjhlkjhlkjhjkhlkj</text>
-	    <author>Vagios Vlachos</author>
-	    <year></year>
-	</quote>
-	
+
 	<quote>
 	    <text>I find your lack of faith disturbing.</text>
 	    <author>Darth Vader</author>
@@ -12,14 +7,26 @@
 	</quote>
 	
 	<quote>
-	    <text>Teenage mutant ninja turtles.</text>
-	    <author>test</author>
+	    <text>I’ve never understood the female capacity to avoid a direct answer to any question.</text>
+	    <author>Spock</author>
 	    <year></year>
 	</quote>
 
 	<quote>
-	    <text>I am derping...</text>
-	    <author>Le Derp</author>
+	    <text>Your logic was impeccable, Captain. We are in grave danger.</text>
+	    <author>Spock to Kirk</author>
+	    <year></year>
+	</quote>
+
+	<quote>
+	    <text>Fascinating.</text>
+	    <author>Spock</author>
+	    <year></year>
+	</quote>
+
+	<quote>
+	    <text>Fascinating is a word I use for the unexpected, in this case I would think interesting would suffice.</text>
+	    <author>Spock</author>
 	    <year></year>
 	</quote>
 
