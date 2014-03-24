@@ -11,6 +11,7 @@ title: My Blog
   <div class="row">
     <div class="medium-12 columns">
       <ul class="posts terminal">
+        <span style="font-size: 15px">No blog posts yet</span>
         {% for post in site.posts %}
           <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
