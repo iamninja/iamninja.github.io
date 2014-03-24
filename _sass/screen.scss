@@ -47,16 +47,22 @@
 //   "foundation/components/visibility";
 
 .header-panel {
-		@include panel();
-		background-image: url(../images/me.jpg);
-		background-size: 380px 320px;
-		background-repeat: no-repeat;
-		background-position: right;
-		background-color: $gray-lighter;
-		text-color: $gray-light;
-		display: block;
-		height: 280px;
-		border-top: 0;
+	@include panel();
+	background-image: url(../images/me.jpg);
+	background-size: 380px 320px;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: $gray-lighter;
+	text-color: $gray-light;
+	display: block;
+	height: 280px;
+	border-top: 0;
+}
+
+@media #{$small-only} { 
+  .header-panel{
+    background-position: center;
+  }
 }
 
 .contact-panel {
