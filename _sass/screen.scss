@@ -49,13 +49,13 @@
 .header-panel {
 	@include panel();
 	background-image: url(../images/me.jpg);
-	background-size: 380px 320px;
+	background-size: 380px 252.34375px;
 	background-repeat: no-repeat;
 	background-position: right;
 	background-color: $gray-lighter;
 	text-color: $gray-light;
 	display: block;
-	height: 280px;
+	height: 250px;
 	border-top: 0;
 }
 

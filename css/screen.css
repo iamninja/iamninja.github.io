@@ -9788,9 +9788,6 @@ th.hide-for-touch {
 /* line 130, ../_sass/_iconmoon.scss */
 .glyph {
   font-size: 16px;
-  padding-bottom: 1em;
-  margin-right: 4em;
-  margin-bottom: 1em;
   float: left;
   overflow: hidden;
   font-size: 32px;
@@ -9805,13 +9802,13 @@ th.hide-for-touch {
   padding: 1.25rem;
   background: #f2f2f2;
   background-image: url(../images/me.jpg);
-  background-size: 380px 320px;
+  background-size: 380px 252.34375px;
   background-repeat: no-repeat;
   background-position: right;
   background-color: #eeeeee;
   text-color: #999999;
   display: block;
-  height: 280px;
+  height: 250px;
   border-top: 0;
 }
 /* line 52, ../_sass/foundation/components/_panels.scss */
