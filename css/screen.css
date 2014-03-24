@@ -9884,7 +9884,8 @@ th.hide-for-touch {
 
 /* line 81, ../_sass/screen.scss */
 body {
-  font-family: "Lato";
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
 
 /*****************************************************************************/
@@ -9892,18 +9893,18 @@ body {
 /* Home
 /*
 /*****************************************************************************/
-/* line 90, ../_sass/screen.scss */
+/* line 91, ../_sass/screen.scss */
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
 
-/* line 95, ../_sass/screen.scss */
+/* line 96, ../_sass/screen.scss */
 .posts li {
   line-height: 1.75em;
 }
 
-/* line 99, ../_sass/screen.scss */
+/* line 100, ../_sass/screen.scss */
 .posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
@@ -9915,7 +9916,7 @@ body {
 /* Site
 /*
 /*****************************************************************************/
-/* line 111, ../_sass/screen.scss */
+/* line 112, ../_sass/screen.scss */
 .site {
   font-size: 115%;
   text-align: justify;
@@ -9924,45 +9925,45 @@ body {
   line-height: 1.5em;
 }
 
-/* line 119, ../_sass/screen.scss */
+/* line 120, ../_sass/screen.scss */
 .header a {
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 124, ../_sass/screen.scss */
+/* line 125, ../_sass/screen.scss */
 .title {
   display: inline-block;
   margin-bottom: 2em;
 }
 
-/* line 129, ../_sass/screen.scss */
+/* line 130, ../_sass/screen.scss */
 .title a {
   color: #a00;
 }
 
-/* line 133, ../_sass/screen.scss */
+/* line 134, ../_sass/screen.scss */
 .title a:hover {
   color: #000;
 }
 
-/* line 137, ../_sass/screen.scss */
+/* line 138, ../_sass/screen.scss */
 .header a.extra {
   color: #aaa;
   margin-left: 1em;
 }
 
-/* line 142, ../_sass/screen.scss */
+/* line 143, ../_sass/screen.scss */
 .header a.extra:hover {
   color: #000;
 }
 
-/* line 146, ../_sass/screen.scss */
+/* line 147, ../_sass/screen.scss */
 .meta {
   color: #aaa;
 }
 
-/* line 150, ../_sass/screen.scss */
+/* line 151, ../_sass/screen.scss */
 .footer {
   font-size: 80%;
   color: #666;
@@ -9971,25 +9972,25 @@ body {
   overflow: hidden;
 }
 
-/* line 158, ../_sass/screen.scss */
+/* line 159, ../_sass/screen.scss */
 .footer .contact {
   float: left;
   margin-right: 3em;
 }
 
-/* line 163, ../_sass/screen.scss */
+/* line 164, ../_sass/screen.scss */
 .footer .contact a {
   color: #8085C1;
 }
 
-/* line 167, ../_sass/screen.scss */
+/* line 168, ../_sass/screen.scss */
 .footer .rss {
   margin-top: 1.1em;
   margin-right: -.2em;
   float: right;
 }
 
-/* line 173, ../_sass/screen.scss */
+/* line 174, ../_sass/screen.scss */
 .footer .rss img {
   border: 0;
 }
@@ -10000,39 +10001,39 @@ body {
 /*
 /*****************************************************************************/
 /* standard */
-/* line 184, ../_sass/screen.scss */
+/* line 185, ../_sass/screen.scss */
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
 
-/* line 190, ../_sass/screen.scss */
+/* line 191, ../_sass/screen.scss */
 .post ul, .post ol {
   margin-left: 1.35em;
 }
 
-/* line 194, ../_sass/screen.scss */
+/* line 195, ../_sass/screen.scss */
 .post code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
 }
 
-/* line 200, ../_sass/screen.scss */
+/* line 201, ../_sass/screen.scss */
 .post pre code {
   border: none;
 }
 
 /* terminal */
-/* line 205, ../_sass/screen.scss */
+/* line 206, ../_sass/screen.scss */
 .post pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
 }
 
-/* line 211, ../_sass/screen.scss */
+/* line 212, ../_sass/screen.scss */
 .post pre.terminal code {
   background-color: #333;
 }
